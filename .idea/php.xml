@@ -95,6 +95,7 @@
       <path value="$PROJECT_DIR$/vendor/pbmedia/binary-driver" />
       <path value="$PROJECT_DIR$/vendor/pbmedia/php-ffmpeg" />
       <path value="$PROJECT_DIR$/vendor/pbmedia/laravel-ffmpeg" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
