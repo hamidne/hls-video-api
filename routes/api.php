@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -13,6 +11,12 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+use Illuminate\Support\Facades\Route;
+
+Route::group(['prefix' => 'videos', 'namespace' => 'Video'], function () {
+	Route::get('', 'VideoIndexController');
+	Route::post('', 'VideoStoreController');
+	Route::get('{video}', 'VideoShowController');
+	Route::put('{video}', 'VideoUpdateController');
+	Route::delete('{video}', 'VideoDeleteController');
 });

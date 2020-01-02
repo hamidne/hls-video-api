@@ -14,13 +14,3 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'VideoController@show');
-
-Route::group(['prefix' => 'videos', 'namespace' => 'Video'], function () {
-	Route::get('', 'VideoIndexController');
-	Route::post('', 'VideoStoreController');
-	Route::get('{video}', 'VideoShowController');
-	Route::put('{video}', 'VideoUpdateController');
-	Route::delete('{video}', 'VideoDeleteController');
-});
-
-

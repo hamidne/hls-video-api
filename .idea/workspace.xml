@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfad4a7f-388b-49ff-8888-7aad0a279413" name="Default Changelist" comment="" />
+    <list default="true" id="dfad4a7f-388b-49ff-8888-7aad0a279413" name="Default Changelist" comment="update routes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoIndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoIndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoStoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoStoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -19,6 +26,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -118,15 +128,19 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1VkSFOthXR4sYxPoXil46ZqOEBE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/storage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -136,11 +150,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Code\Laravel\hls-video\resources\views" />
+      <recent name="F:\Code\Laravel\hls-video" />
       <recent name="$PROJECT_DIR$/public/storage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Code\Laravel\hls-video\resources\views\videos" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,21 +189,52 @@
       <option name="presentableId" value="Default" />
       <updated>1577795495803</updated>
       <workItem from="1577795497538" duration="4778000" />
+      <workItem from="1577989304855" duration="3637000" />
     </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="update routes">
+      <created>1577991902062</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1577991902062</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۲" summary="add new controllers for video">
+      <created>1577991970004</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1577991970004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update routes" />
+    <MESSAGE value="add new controllers for video" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new controllers for video" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577798455517">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="661" y="284" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577991993539">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577798455517" />
+    <state x="661" y="284" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577991993539" />
+    <state x="583" y="39" key="CommitChangelistDialog2" timestamp="1577992207095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="39" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577992207095" />
     <state x="597" y="332" key="NewPhpClassDialog" timestamp="1577796602406">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="597" y="332" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577796602406" />
+    <state x="789" y="166" key="RollbackChangesDialog" timestamp="1577991881381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="789" y="166" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577991881381" />
     <state x="488" y="271" width="703" height="508" key="find.popup" timestamp="1577800747463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

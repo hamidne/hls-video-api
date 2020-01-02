@@ -27,9 +27,9 @@ class VideoController extends Controller
 		], 201);
 	}
 
-	public function show()
+	public function show(Video $video)
 	{
-		$streamUrl = Storage::disk('streamable_videos')->url(19 . '.m3u8');
+		$streamUrl = Storage::disk('streamable_videos')->url($video->id . '.m3u8');
 		return view('video', compact('streamUrl'));
 	}
 }
