@@ -2,21 +2,21 @@
 
 namespace App\Http\Controllers\Video;
 
-use App\Http\Controllers\Controller;
-use App\Jobs\ConvertVideoForDownloading;
-use App\Jobs\ConvertVideoForStreaming;
 use App\Video;
-use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Jobs\ConvertVideoForStreaming;
+use App\Jobs\ConvertVideoForDownloading;
+use App\Http\Requests\Video\VideoStoreRequest;
 
 class VideoStoreController extends Controller
 {
 	/**
 	 * Handle the incoming request.
 	 *
-	 * @param \Illuminate\Http\Request $request
+	 * @param VideoStoreRequest $request
 	 * @return \Illuminate\Http\JsonResponse
 	 */
-	public function __invoke(Request $request)
+	public function __invoke(VideoStoreRequest $request)
 	{
 		$video = Video::create([
 			'disk'          => 'videos_disk',

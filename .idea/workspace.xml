@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfad4a7f-388b-49ff-8888-7aad0a279413" name="Default Changelist" comment="update routes">
+    <list default="true" id="dfad4a7f-388b-49ff-8888-7aad0a279413" name="Default Changelist" comment="edit for routes">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Video/VideoStoreRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoIndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoIndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoStoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoStoreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreVideoRequest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577795495803</updated>
       <workItem from="1577795497538" duration="4778000" />
-      <workItem from="1577989304855" duration="3637000" />
+      <workItem from="1577989304855" duration="4464000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="update routes">
       <created>1577991902062</created>
@@ -203,7 +201,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
       <updated>1577991970004</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎۰۰۰۰۳" summary="edit for routes">
+      <created>1577993177255</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
+      <updated>1577993177255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +219,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update routes" />
     <MESSAGE value="add new controllers for video" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new controllers for video" />
+    <MESSAGE value="edit for routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit for routes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="661" y="284" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577991993539">
@@ -223,10 +228,10 @@
     </state>
     <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577798455517" />
     <state x="661" y="284" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577991993539" />
-    <state x="583" y="39" key="CommitChangelistDialog2" timestamp="1577992207095">
+    <state x="583" y="39" key="CommitChangelistDialog2" timestamp="1577993930047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="39" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577992207095" />
+    <state x="583" y="39" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577993930047" />
     <state x="597" y="332" key="NewPhpClassDialog" timestamp="1577796602406">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
