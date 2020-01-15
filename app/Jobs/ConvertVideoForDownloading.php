@@ -3,7 +3,7 @@
 namespace App\Jobs;
 
 use FFMpeg;
-use App\Video;
+use App\Models\Video;
 use Carbon\Carbon;
 use FFMpeg\Coordinate\Dimension;
 use FFMpeg\Format\Video\X264;

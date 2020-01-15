@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Video;
+use App\Models\Video;
 use App\Jobs\ConvertVideoForStreaming;
 use App\Http\Requests\StoreVideoRequest;
 use App\Jobs\ConvertVideoForDownloading;
@@ -29,7 +29,7 @@ class VideoController extends Controller
 
 	public function show(Video $video)
 	{
-		$streamUrl = Storage::disk('streamable_videos')->url($video->id . '.m3u8');
+		$streamUrl = Storage::disk('stream_videos')->url($video->id . '.m3u8');
 		return view('video', compact('streamUrl'));
 	}
 }
