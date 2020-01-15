@@ -25,7 +25,6 @@ class VideoStoreController extends Controller
 			'title'         => $request->title,
 		]);
 
-		$this->dispatch(new ConvertVideoForDownloading($video));
 		$this->dispatch(new ConvertVideoForStreaming($video));
 
 		return response()->json([

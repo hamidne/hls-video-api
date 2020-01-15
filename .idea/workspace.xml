@@ -2,123 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfad4a7f-388b-49ff-8888-7aad0a279413" name="Default Changelist" comment="add new request class for handle request">
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4.m3u8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500.m3u8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00000.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00001.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00002.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00003.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00004.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00005.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00006.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00007.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00008.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00009.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00010.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00011.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00012.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00013.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00014.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00015.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00016.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00017.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00018.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00019.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00020.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00021.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00022.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00023.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00024.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00025.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00026.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00027.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00028.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00029.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00030.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00031.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00032.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00033.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_1500_00034.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000.m3u8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00000.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00001.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00002.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00003.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00004.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00005.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00006.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00007.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00008.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00009.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00010.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00011.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00012.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00013.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00014.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00015.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00016.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00017.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00018.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00019.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00020.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00021.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00022.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00023.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00024.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00025.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00026.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00027.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00028.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00029.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00030.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00031.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00032.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00033.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_3000_00034.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500.m3u8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00000.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00001.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00002.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00003.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00004.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00005.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00006.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00007.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00008.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00009.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00010.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00011.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00012.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00013.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00014.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00015.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00016.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00017.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00018.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00019.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00020.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00021.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00022.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00023.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00024.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00025.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00026.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00027.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00028.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00029.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00030.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00031.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00032.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00033.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stream/4/4_500_00034.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hls-video.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hls-video.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoStoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Video/VideoStoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19.m3u8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19_1500.m3u8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19_1500_00000.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19_3000.m3u8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19_3000_00000.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19_500.m3u8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/19_500_00000.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +146,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -301,7 +195,9 @@
       <option name="presentableId" value="Default" />
       <updated>1577795495803</updated>
       <workItem from="1577795497538" duration="4778000" />
-      <workItem from="1577989304855" duration="7905000" />
+      <workItem from="1577989304855" duration="8502000" />
+      <workItem from="1578057429116" duration="750000" />
+      <workItem from="1579115884595" duration="1060000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="update routes">
       <created>1577991902062</created>
@@ -327,7 +223,19 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
       <updated>1577994028035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎۰۰۰۰۵" summary="install new package">
+      <created>1577999781669</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1577999781669</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۶" summary="edit for projects">
+      <created>1577999940357</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
+      <updated>1577999940357</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +249,9 @@
     <MESSAGE value="add new controllers for video" />
     <MESSAGE value="edit for routes" />
     <MESSAGE value="add new request class for handle request" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new request class for handle request" />
+    <MESSAGE value="install new package" />
+    <MESSAGE value="edit for projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit for projects" />
   </component>
   <component name="WindowStateProjectService">
     <state x="661" y="284" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577991993539">
@@ -349,10 +259,10 @@
     </state>
     <state x="578" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577798455517" />
     <state x="661" y="284" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577991993539" />
-    <state x="243" y="39" width="1379" height="1001" key="CommitChangelistDialog2" timestamp="1577999779023">
+    <state x="243" y="39" width="1379" height="1001" key="CommitChangelistDialog2" timestamp="1577999937985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="243" y="39" width="1379" height="1001" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577999779023" />
+    <state x="243" y="39" width="1379" height="1001" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577999937985" />
     <state x="597" y="332" key="NewPhpClassDialog" timestamp="1577796602406">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -361,6 +271,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="789" y="166" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577999745532" />
+    <state x="636" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1578057596115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="365" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578057596115" />
     <state x="488" y="271" width="703" height="508" key="find.popup" timestamp="1577800747463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
