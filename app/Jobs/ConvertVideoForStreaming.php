@@ -3,16 +3,16 @@
 namespace App\Jobs;
 
 use FFMpeg;
-use App\Models\Video;
 use Carbon\Carbon;
+use App\Models\Video;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 use FFMpeg\Format\Video\X264;
 use Illuminate\Bus\Queueable;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Storage;
-use Pbmedia\LaravelFFMpeg\Disk;
 
 class ConvertVideoForStreaming implements ShouldQueue
 {
@@ -39,22 +39,21 @@ class ConvertVideoForStreaming implements ShouldQueue
 	 */
 	public function handle()
 	{
-		$bitrateFormat = (new X264('libmp3lame', 'libx264'));
-		$lowBitrateFormat = $bitrateFormat->setKiloBitrate(500);
-		$midBitrateFormat = $bitrateFormat->setKiloBitrate(1500);
-		$highBitrateFormat = $bitrateFormat->setKiloBitrate(3000);
+		$streamPath = $this->video->id . '/' . Str::random(16) . '.m3u8';
+
+		$lowBitrateFormat = (new X264('libmp3lame', 'libx264'))->setKiloBitrate(500);
+		$midBitrateFormat = (new X264('libmp3lame', 'libx264'))->setKiloBitrate(1500);
+		$highBitrateFormat = (new X264('libmp3lame', 'libx264'))->setKiloBitrate(3000);
 
 		FFMpeg::fromDisk($this->video->disk)
-			->open($this->video->path)
+			->open($this->video->video_path)
 			->exportForHLS()
 			->toDisk('stream_videos')
 			->addFormat($lowBitrateFormat)
 			->addFormat($midBitrateFormat)
 			->addFormat($highBitrateFormat)
-			->save("{$this->video->id}/{$this->video->id}.m3u8");
+			->save($streamPath);
 
-		$this->video->update([
-			'converted_for_streaming_at' => Carbon::now(),
-		]);
+		$this->video->update(['stream_path' => $streamPath]);
 	}
 }
