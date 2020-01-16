@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers\Video;
 
+use App\Http\Controllers\ApiController;
+use App\Http\Resources\Video\VideoShowResource;
 use App\Models\Video;
-use App\Http\Controllers\Controller;
 use App\Jobs\ConvertVideoForStreaming;
-use App\Jobs\ConvertVideoForDownloading;
 use App\Http\Requests\Video\VideoStoreRequest;
 
-class VideoStoreController extends Controller
+class VideoStoreController extends ApiController
 {
 	/**
 	 * Handle the incoming request.
@@ -19,15 +19,15 @@ class VideoStoreController extends Controller
 	public function __invoke(VideoStoreRequest $request)
 	{
 		$video = Video::create([
-			'disk'  => 'videos_disk',
-			'path'  => $request->video->store('videos', 'videos_disk'),
-			'title' => $request->title,
+			'disk'       => 'videos_disk',
+			'video_path' => $request->video->store('videos', 'videos_disk'),
+			'title'      => $request->title,
 		]);
 
 		$this->dispatch(new ConvertVideoForStreaming($video));
 
-		return response()->json([
-			'id' => $video->id,
-		], 201);
+		return $this
+			->setStatusCode(201)
+			->respondWithCollection(new VideoShowResource($video), []);
 	}
 }
