@@ -2,19 +2,26 @@
 
 namespace App\Http\Controllers\Video;
 
-use App\Http\Controllers\Controller;
+use App\Models\Video;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Http\Resources\Video\VideoIndexResource;
 
 class VideoIndexController extends Controller
 {
-    /**
-     * Handle the incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
-    public function __invoke(Request $request)
-    {
-        return view('videos.index');
-    }
+	/**
+	 * Handle the incoming request.
+	 *
+	 * @param \Illuminate\Http\Request $request
+	 * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
+	 */
+	public function __invoke(Request $request)
+	{
+		$videos = Video::query()
+			->whereNotNull('stream_path')
+			->orderByDesc('id')
+			->paginate();
+
+		return VideoIndexResource::collection($videos);
+	}
 }

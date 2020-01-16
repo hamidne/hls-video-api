@@ -104,6 +104,18 @@ class ApiController extends Controller
 	}
 
 	/**
+	 * Respond the resource data.
+	 *
+	 * @param $resource
+	 * @param string $message
+	 * @return mixed
+	 */
+	public function respondWithResource($resource, $message = 'Successfully')
+	{
+		return $this->respondWithArray(['data' => $resource, 'message' => $message]);
+	}
+
+	/**
 	 *  Respond the collection data with pagination.
 	 *
 	 * @param $paginator
@@ -137,11 +149,12 @@ class ApiController extends Controller
 	/**
 	 * Respond the message.
 	 *
-	 * @param  string $message
+	 * @param string $message
 	 * @return json
 	 */
 
-	public function respondWithMessage ($message) {
+	public function respondWithMessage($message)
+	{
 		return $this->setStatusCode(200)
 			->respondWithArray([
 				'message' => $message,
@@ -151,8 +164,8 @@ class ApiController extends Controller
 	/**
 	 * Respond the error message.
 	 *
-	 * @param  string $message
-	 * @param  string $errorCode
+	 * @param string $message
+	 * @param string $errorCode
 	 * @return json
 	 */
 	protected function respondWithError($message, $errorCode, $errors = [])
@@ -174,7 +187,7 @@ class ApiController extends Controller
 	/**
 	 * Respond the error of 'Forbidden'
 	 *
-	 * @param  string $message
+	 * @param string $message
 	 * @return json
 	 */
 	public function errorForbidden($message = 'Forbidden', $errors = [])
@@ -186,7 +199,7 @@ class ApiController extends Controller
 	/**
 	 * Respond the error of 'Internal Error'.
 	 *
-	 * @param  string $message
+	 * @param string $message
 	 * @return json
 	 */
 	public function errorInternalError($message = 'Internal Error', $errors = [])
@@ -198,7 +211,7 @@ class ApiController extends Controller
 	/**
 	 * Respond the error of 'Resource Not Found'
 	 *
-	 * @param  string $message
+	 * @param string $message
 	 * @return json
 	 */
 	public function errorNotFound($message = 'Resource Not Found', $errors = [])
@@ -210,7 +223,7 @@ class ApiController extends Controller
 	/**
 	 * Respond the error of 'Unauthorized'.
 	 *
-	 * @param  string $message
+	 * @param string $message
 	 * @return json
 	 */
 	public function errorUnauthorized($message = 'Unauthorized', $errors = [])
@@ -222,7 +235,7 @@ class ApiController extends Controller
 	/**
 	 * Respond the error of 'Wrong Arguments'.
 	 *
-	 * @param  string $message
+	 * @param string $message
 	 * @return json
 	 */
 	public function errorWrongArgs($message = 'Wrong Arguments', $errors = [])
