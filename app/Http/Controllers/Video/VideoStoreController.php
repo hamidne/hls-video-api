@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Video;
 
-use App\Http\Controllers\ApiController;
-use App\Http\Resources\Video\VideoShowResource;
 use App\Models\Video;
 use App\Jobs\ConvertVideoForStreaming;
+use App\Http\Controllers\ApiController;
+use App\Http\Resources\Video\VideoShowResource;
 use App\Http\Requests\Video\VideoStoreRequest;
 
 class VideoStoreController extends ApiController
@@ -28,6 +28,6 @@ class VideoStoreController extends ApiController
 
 		return $this
 			->setStatusCode(201)
-			->respondWithCollection(new VideoShowResource($video), []);
+			->respondWithResource(new VideoShowResource($video));
 	}
 }
