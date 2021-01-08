@@ -3,9 +3,9 @@
 namespace App\Jobs;
 
 use FFMpeg;
+use Storage;
 use Carbon\Carbon;
 use App\Models\Video;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use FFMpeg\Format\Video\X264;
 use Illuminate\Bus\Queueable;
@@ -13,6 +13,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
+use ProtoneMedia\LaravelFFMpeg\Exporters\HLSExporter;
 
 class ConvertVideoForStreaming implements ShouldQueue
 {
@@ -48,6 +49,9 @@ class ConvertVideoForStreaming implements ShouldQueue
 		FFMpeg::fromDisk($this->video->disk)
 			->open($this->video->video_path)
 			->exportForHLS()
+			->withRotatingEncryptionKey(function ($filename, $contents) {
+				Storage::disk('stream_videos')->put($this->video->id . '/' . $filename, $contents);
+			})
 			->toDisk('stream_videos')
 			->addFormat($lowBitrateFormat)
 			->addFormat($midBitrateFormat)

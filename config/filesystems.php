@@ -55,8 +55,8 @@ return [
 
 		'stream_videos' => [
 			'driver'     => 'local',
-			'root'       => public_path('stream'),
-			'url'        => '/stream',
+			'root'       => storage_path('app/public/stream'),
+			'url'        => env('APP_URL') . '/storage/stream',
 			'visibility' => 'public',
 		],
 
